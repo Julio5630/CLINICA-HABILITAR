@@ -184,13 +184,13 @@ void cadastrarCliente() {
 
 void listarClientes() {
     limparTela();
-    printf("\n================================================================================\n");
-    printf("|                            LISTA DE CLIENTES                                   |\n");
-    printf("==================================================================================\n");
+    printf("\n============================================================================================================\n");
+    printf("|                                         RELATORIO DE ATENDIMENTOS                                          |\n");
+    printf("=============================================================================================================\n");
     
     if (total_clientes == 0) {
         printf("\nNenhum cliente cadastrado.\n");
-        printf("================================================================================\n");
+        printf("=============================================================================================\n");
         printf("Pressione ENTER para continuar...");
         limparBufferEntrada();
         return;
@@ -198,7 +198,7 @@ void listarClientes() {
 
     printf("| %-30s | %-11s | %-5s | %-20s | %-4s | %-20s |\n", 
            "Nome", "CPF", "Idade", "Servico", "Cat.", "Status");
-    printf("--------------------------------------------------------------------------------\n");
+    printf("------------------------------------------------------------------------------------------------------------\n");
     
     for (int i = 0; i < total_clientes; i++) {
         printf("| %-30s | %s | %-5d | %-20s | %-4s | %-20s |\n",
@@ -210,7 +210,7 @@ void listarClientes() {
                clientes[i].status);
     }
     
-    printf("================================================================================\n");
+    printf("=============================================================================================================\n");
     printf("\nTotal de clientes: %d\n", total_clientes);
     printf("Pressione ENTER para continuar...");
     limparBufferEntrada();
@@ -302,12 +302,12 @@ void exibirMenuPrincipal() {
     int opcao;
     
     do {
-        printf("\n==================================================================\n");
+        printf("\n=====================================================================\n");
         printf("|          SISTEMA DE GERENCIAMENTO - CLINICA HABILITAR             |\n");
         printf("=====================================================================\n");
-        printf("| 1 - Cadastrar novo cliente                                        |\n");
-        printf("| 2 - Listar todos os clientes                                      |\n");
-        printf("| 3 - Buscar cliente por CPF                                        |\n");
+        printf("| 1 - Abertura de processo - Renach                                 |\n");
+        printf("| 2 - Relatorio de atendimentos                                     |\n");
+        printf("| 3 - Consultar processo                                            |\n");
         printf("| 4 - Atualizar status do processo                                  |\n");
         printf("| 0 - Sair do sistema                                               |\n");
         printf("=====================================================================\n");
