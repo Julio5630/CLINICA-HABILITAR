@@ -1,7 +1,7 @@
 # 🚗 Sistema de Gerenciamento para Clínica Habilitar 🚦
 
 <div align="center">
-  <img src="https://placehold.co/800x300" alt="Banner mostrando um sistema de gestão de CNH com interface moderna, contendo elementos de trânsito e formulários digitais em tons de azul e verde" />
+  <img src="img/Tela Inicial.png" alt="Banner mostrando um sistema de gestão de CNH com interface moderna, contendo elementos de trânsito e formulários digitais em tons de azul e verde" />
   <br>
 
 </div>
