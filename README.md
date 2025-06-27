@@ -3,10 +3,7 @@
 <div align="center">
   <img src="https://placehold.co/800x300" alt="Banner mostrando um sistema de gestão de CNH com interface moderna, contendo elementos de trânsito e formulários digitais em tons de azul e verde" />
   <br>
-  
-  ![GitHub last commit](https://img.shields.io/github/last-commit/usuario/clinica-habilitar?style=flat-square)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/usuario/clinica-habilitar?color=success&style=flat-square)
-  ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+
 </div>
 
 ## 📚 Informações do Projeto
