@@ -77,10 +77,10 @@ git clone https://github.com/usuario/clinica-habilitar.git
 cd clinica-habilitar
 
 # Compile o programa
-gcc -o sistema_habilitar sistema_habilitar.c
+gcc sistema_habilitar.c -o sistema_habilitar.exe
 
 # Execute
-./sistema_habilitar
+./sistema_habilitar.exe
 ```
 
 ## 🔐 Credenciais de Acesso
@@ -105,7 +105,3 @@ clinica-habilitar/
 - ✔️ Categorias de CNH válidas
 - ✔️ Tipos de serviço permitidos
 
-## 🚦 Próximas Implementações
-- [ ] Módulo financeiro
-- [ ] Interface gráfica
-- [ ] Backup automático
