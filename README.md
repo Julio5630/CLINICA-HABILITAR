@@ -1,7 +1,7 @@
 # 🚗 Sistema de Gerenciamento para Clínica Habilitar 🚦
 
 <div align="center">
-  <img src="img/Tela Inicial.png" alt="Banner mostrando um sistema de gestão de CNH com interface moderna, contendo elementos de trânsito e formulários digitais em tons de azul e verde" />
+  <img src="img/Tela Inicial.png" alt="Banner mostrando um sistema de gestão de CNH com interface" />
   <br>
 
 </div>
@@ -45,7 +45,7 @@ Um sistema completo para gestão de processos de habilitação veicular, desenvo
 ## 🖥️ Pré-visualização da Interface
 
 <div align="center">
-  <img src="https://placehold.co/600x400" alt="Captura de tela mostrando o menu principal do sistema com opções numeradas em formato tabela, simulando interface de terminal" />
+  <img src="img/Interface.png" alt="Captura de tela mostrando o menu principal do sistema com opções numeradas em formato tabela, simulando interface de terminal" />
 </div>
 
 ## ⚙️ Tecnologias Utilizadas
