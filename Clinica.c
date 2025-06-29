@@ -157,7 +157,7 @@ void cadastrarCliente() {
         case 3: strcpy(novo.tipo_servico, "Mudanca de categoria"); break;
     }
 
-    // Categoria
+    // Categoria.
     printf("\nCategorias disponiveis:\n");
     printf("A - Motocicletas\n");
     printf("B - Carros\n");
